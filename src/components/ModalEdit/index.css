@@ -1,0 +1,107 @@
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(236,240,243,0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.modal.open{
+  display: flex;
+}
+
+.modal-content{
+  box-shadow: -4px -4px 20px #fff, 4px 4px 20px rgba(151,167,195,0.5);
+  background-color: #ecf0f3;
+  width: 500px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.modal .modal-content .modal-header{
+  margin-bottom: 15px;
+  text-align: center;
+}
+.modal .modal-content .modal-header h2{
+  color: #a0a0a0;
+}
+
+
+.modal .modal-content .modal-body{}
+.modal .modal-content .modal-body input,
+.modal .modal-content .modal-body textarea{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.modal .modal-content .modal-body textarea{
+  resize: vertical;
+  min-height: 150px;
+}
+
+.modal .modal-content .modal-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal .modal-content .modal-footer button{
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-weight: 700;
+  width: 45%;
+  margin-top: 20px;
+}
+.modal .modal-content .modal-footer button.salvar{
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+  color: rgb(79,205,147);
+
+}
+.modal .modal-content .modal-footer button.salvar:hover{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+}
+
+.modal .modal-content .modal-footer button.cancelar{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+  color: #a0a0a0
+}
+.modal .modal-content .modal-footer button.cancelar:hover{
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+}
+
+
+.modal .modal-content .modal-header .erro{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(255, 109, 176,0.5);
+  padding: 10px 15px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(230,20,117);
+  color: rgb(230,20,117);
+  border-radius: 12px; 
+}
+
+.modal .modal-content .modal-header .sucesso{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(79, 205, 147, 0.5);
+  padding: 10px 15px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(57,142,103);
+  color: rgb(57,142,103);
+  border-radius: 12px; 
+}

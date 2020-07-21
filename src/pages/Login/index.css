@@ -1,0 +1,63 @@
+.login-container{
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .container{
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.login-container .container .esquerda{
+
+}
+.login-container .container .esquerda .erro{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(255, 109, 176,0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(230,20,117);
+  color: rgb(230,20,117)
+}
+.login-container .container .esquerda .login-logotipo{
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.login-container .container .esquerda form{}
+.login-container .container .esquerda form .group-input{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container .container .esquerda form .group-input label{}
+.login-container .container .esquerda form .group-input label img{}
+.login-container .container .esquerda form .group-input input{
+  width: 100%;
+  padding-left: 10px;
+}
+
+.login-container .container .esquerda form .login-button{
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 700;
+  width: 100%;
+}
+.login-container .container .esquerda form .login-button:hover{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+}

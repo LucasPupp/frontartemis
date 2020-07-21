@@ -1,0 +1,138 @@
+.painel-container{
+
+}
+.painel-container .container{
+
+}
+.painel-container .container header{
+
+}
+.painel-container .container header .esquerdo{
+
+}
+
+.painel-container .container header .esquerdo span{
+
+}
+
+.painel-container .container header .esquerdo .painel-logotipo{
+
+}
+
+.painel-container .container header .direito{
+
+}
+.painel-container .container header .direito .cadastrar-caso{
+
+}
+.painel-container .container header .direito .cadastrar-caso:hover{
+
+}
+.painel-container .container header .direito button{
+
+}
+.painel-container .container header .direito button:hover{
+
+}
+
+.painel-container .container main{
+  
+}
+.painel-container .container main .titulo{
+
+}
+
+.painel-container .container main .casos{
+
+}
+
+.painel-container .container main .casos ul{
+
+}
+.painel-container .container main .casos.ongs ul button{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  box-shadow: -4px -4px 10px #fff, 4px 4px 10px rgba(151,167,195,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+.painel-container .container main .casos ul button img{
+  width: 35px;
+    padding: 10px;
+    box-shadow: -4px -4px 10px #fff, 
+                4px 4px 10px rgba(151,167,195,0.5);
+    border-radius: 50%;
+}
+.painel-container .container main .casos ul button:hover img{
+  box-shadow: inset -4px -4px 10px #fff, 
+              inset 4px 4px 10px rgba(151,167,195,0.5);
+}
+
+.painel-container .container main .casos ul li h2{
+
+}
+.painel-container .container main .casos ul li h3{
+
+}
+.painel-container .container main .casos ul li p{
+
+}
+.painel-container .container main .casos ul .painel-contatos{
+
+}
+.painel-container .container main .casos ul .painel-contatos a{
+  box-shadow: -4px -4px 10px #fff, 4px 4px 10px rgba(151,167,195,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+.painel-container .container main .casos ul .painel-contatos a:hover{
+
+}
+.painel-container .container main .casos ul .painel-contatos a img{
+  width: 35px;
+  padding: 10px;
+  box-shadow: -4px -4px 10px #fff, 
+              4px 4px 10px rgba(151,167,195,0.5);
+  border-radius: 50%;
+}
+.painel-container .container main .casos ul .painel-contatos a:hover img{
+  box-shadow: inset -4px -4px 10px #fff, 
+              inset 4px 4px 10px rgba(151,167,195,0.5);
+}
+
+.painel-container .container main .abas{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.painel-container .container main .abas li{
+  margin-right: 10px;
+  background-color: #ccc;
+  min-width: 150px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.25s ease all;
+  -webkit-transition: 0.25s ease all;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.painel-container .container main .abas li:hover{
+  background-color: #2d5586;
+  color: #fff;
+  box-shadow: -4px -4px 8px #fff, 4px 4px 8px #909090;
+}
+
+.painel-container .container main .abas li.ativa{
+  background-color: #2d5586;
+  color: #fff;
+  box-shadow: -4px -4px 8px #fff, 4px 4px 8px #909090;
+}

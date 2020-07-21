@@ -1,0 +1,128 @@
+.cadastro-container{
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastro-container .container{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.cadastro-container .container .esquerdo{
+  max-width: 100%;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cadastro-container .container .esquerdo img{
+  max-width: 100%;
+}
+
+.cadastro-container .container .esquerdo p{
+  margin-top: 25px;
+}
+
+.cadastro-container .container .esquerdo a{
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.cadastro-container .container .esquerdo a:hover{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+}
+
+.cadastro-container .container .direito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 50px;
+  max-width: 100%;
+  width: 500px;
+
+}
+
+.cadastro-container .container .direito h2{
+  text-align: center;
+  color:#193566;
+  font-size: 13px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+
+}
+
+.cadastro-container .container .direito input{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.cadastro-container .container .direito textarea{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  width: 100%;
+}
+.cadastro-container .container .direito button{
+  box-shadow: -4px -4px 10px #fff,
+  4px 4px 10px rgba(151,167,195,0.5);
+  color: #193566;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 20px;
+}
+.cadastro-container .container .direito button:hover{
+  box-shadow: inset -4px -4px 10px #fff,
+  inset 4px 4px 10px rgba(151,167,195,0.5);
+}
+
+
+.cadastro-container .container .erro{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(255, 109, 176,0.5);
+  padding: 10px 15px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(230,20,117);
+  color: rgb(230,20,117);
+  border-radius: 12px; 
+}
+
+.cadastro-container .container .sucesso{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(79, 205, 147, 0.5);
+  padding: 10px 15px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(57,142,103);
+  color: rgb(57,142,103);
+  border-radius: 12px; 
+}

@@ -1,0 +1,16 @@
+.painel-container .container .acessar-painel{
+  box-shadow: -4px -4px 10px #fff, 4px 4px 10px rgba(151,167,195,0.5);
+  border-radius: 25px;
+  margin: 0 5px;
+  padding: 3px;
+  font-size: 18px;
+}
+.painel-container .container .acessar-painel span{
+  display: block;
+  box-shadow: inset -4px -4px 10px #fff, inset 4px 4px 10px rgba(151,167,195,0.5);
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.painel-container .container .acessar-painel:hover span{
+  box-shadow: -4px -4px 10px #fff, 4px 4px 10px rgba(151,167,195,0.5);
+}
